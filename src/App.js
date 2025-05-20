@@ -2,7 +2,10 @@
 
 import { useEffect } from "react"
 import Head from "./components/head"
-import Home from "./pages/home"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import SobreMi from './components/sobre-mi';
+import Proyectos from './components/proyectos';
+import Contacto from './components/contacto';
 
 export default function App() {
   // Función para manejar el menú móvil
@@ -34,11 +37,13 @@ export default function App() {
   }, [])
 
   return (
-    <div>
+    <Router>
       <Head />
-      <main>
-        <Home></Home>
-      </main>
-    </div>
-  )
+      <Routes>
+        <Route path="/" element={<SobreMi />} />
+        <Route path="/proyectos" element={<Proyectos />} />
+        <Route path="/contacto" element={<Contacto />} />
+      </Routes>
+    </Router>
+  );
 }
