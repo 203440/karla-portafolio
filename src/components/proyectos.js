@@ -165,22 +165,6 @@ export default function Proyectos() {
                   </div>
                 </div>
               </div>
-
-              <div className="proyecto-card">
-                <div className="proyecto-imagen">
-                  <img
-                    src="https://i.pinimg.com/736x/ed/94/e3/ed94e3e6fae5dd09cd8f7652f4a01c3d.jpg"
-                    alt="Proyecto fullstack 4"
-                  />
-                  <div className="proyecto-overlay">
-                    <h4>E-commerce</h4>
-                    <p>Tienda online completa con Laravel y React</p>
-                    <a href="#" className="proyecto-btn">
-                      Ver proyecto
-                    </a>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
