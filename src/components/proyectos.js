@@ -90,21 +90,6 @@ export default function Proyectos() {
                   </div>
                 </div>
               </div>
-              <div className="proyecto-card">
-                <div className="proyecto-imagen">
-                  <img
-                    src={Datos}
-                    alt="Proyecto de diseño 5"
-                  />
-                  <div className="proyecto-overlay">
-                    <h4>Datos Mty</h4>
-                    <p>Pagina para el gobierno de monterrey</p>
-                    <a href="#" className="proyecto-btn">
-                      Ver proyecto
-                    </a>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
 
