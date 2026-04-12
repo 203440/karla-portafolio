@@ -103,6 +103,14 @@ export default function SobreMi() {
                 />
                 <h4>Python</h4>
               </div>
+              <div className="cont-tec">
+                <img
+                  src="https://i.pinimg.com/1200x/e8/46/0f/e8460f0d8b9df01e9460bfd1ade0e8c8.jpg"
+                  alt="logo react"
+                  className="logoT"
+                />
+                <h4>C#</h4>
+              </div>
             </div>
           </div>
   
@@ -112,15 +120,23 @@ export default function SobreMi() {
               <div className="cont-tec">
                 <img
                   src="https://i.pinimg.com/736x/01/e6/21/01e621158668a4b8b7c92f1d1671bd43.jpg"
-                  alt="logo react"
+                  alt="logo visual"
                   className="logoT"
                 />
                 <h4>Visual Studio Code</h4>
               </div>
               <div className="cont-tec">
                 <img
+                  src="https://i.pinimg.com/1200x/d3/ef/ff/d3efff4de576642ca4254298fa5d4b6e.jpg"
+                  alt="logo visual"
+                  className="logoT"
+                />
+                <h4>Visual Studio</h4>
+              </div>
+              <div className="cont-tec">
+                <img
                   src="https://i.pinimg.com/736x/66/71/3a/66713a96b9b21dffd3a85a5d748a3171.jpg"
-                  alt="logo react"
+                  alt="logo git"
                   className="logoT"
                 />
                 <h4>GitHub</h4>
@@ -148,6 +164,14 @@ export default function SobreMi() {
                   className="logoT"
                 />
                 <h4>Trello</h4>
+              </div>
+              <div className="cont-tec">
+                <img
+                  src="https://i.pinimg.com/736x/7c/35/b7/7c35b793542aafc65e0fc2070a9213a2.jpg"
+                  alt="logo react"
+                  className="logoT"
+                />
+                <h4>Click Up</h4>
               </div>
             </div>
           </div>

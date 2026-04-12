@@ -6,6 +6,7 @@ import Tienda from "../img/Tienda.png"
 import ID from "../img/idmty.png"
 import Monterrey from "../img/monterrey.png"
 import Acceso from "../img/acceso.png"
+import MR from "../img/MR.png"
 export default function Proyectos() {
   return (
     <section id="proyectos">
@@ -144,6 +145,22 @@ export default function Proyectos() {
                     <h4>Acceso Joven</h4>
                     <p>Pagina para dedicada a jovenes para obtener ciertos servicos de Monterrey</p>
                     <a href="https://accesojoven.monterrey.gob.mx/servicios" className="proyecto-btn">
+                      Ver proyecto
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="proyecto-card">
+                <div className="proyecto-imagen">
+                  <img
+                    src={MR}
+                    alt="Proyecto fullstack 3"
+                  />
+                  <div className="proyecto-overlay">
+                    <h4>Mejora Regulatoria</h4>
+                    <p>Pagina para dedicada a la gestion de herramientos hacia servicos de Monterrey</p>
+                    <a href="https://mejoraregulatoria.monterrey.gob.mx/" className="proyecto-btn">
                       Ver proyecto
                     </a>
                   </div>
